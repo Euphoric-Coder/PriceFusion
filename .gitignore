@@ -1,0 +1,41 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+artifacts/
+dataset/
+models/
+
+*.zip
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+VENV/
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment and tool settings
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
